@@ -1,0 +1,30 @@
+# Valentines Day Card - 2010
+
+This is the code for my AVR driven Valentines Card.
+
+More information is available at: http://www.tony.thompson.name/2010/02/valentines-card/
+Pictures of the final product are available at: http://www.flickr.com/photos/tonious/sets/72157623325815567/
+
+## Files and Demos
+
+blink.c - Demonstrates a chaser
+eh.c - Displays the capital letter 'A'.
+alphabet.c - Displays the lower case 
+stdiotest.c - Demonstrates the use of I/O stream functions.
+buttontest.c - Displays a '*' when the button is pressed.
+sleeptest.c - Demonstrates sleep mode.
+valcard.c - The final card.
+
+font.h - A CBM inspired font.
+ledmatrix.c,.h - The LED matrix driver.
+
+## Installation
+
+Any demo can be installed via:
+
+make flash_<demoname>; make fuse
+
+For example, the 'eh' demo can be installed via:
+
+make flash_eh; make fuse
+
